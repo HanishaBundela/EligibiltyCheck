@@ -18,7 +18,7 @@
 		
 		response.sendRedirect("form.jsp");
 	}else{
-		response.sendRedirect("Login.jsp");
+		response.sendRedirect("index.jsp");
 	}
 	
 	%>

@@ -16,7 +16,7 @@
 	boolean result = logRepo.getLogin(email,log);
 	if(result){
 		
-		response.sendRedirect("index.jsp");
+		response.sendRedirect("form.jsp");
 	}else{
 		response.sendRedirect("Login.jsp");
 	}
